@@ -4,7 +4,7 @@ cask 'ozv-virtualbox' do
 
   url "https://download.virtualbox.org/virtualbox/#{version.before_comma}/VirtualBox-#{version.before_comma}-#{version.after_comma}-OSX.dmg"
   appcast 'https://download.virtualbox.org/virtualbox/LATEST.TXT'
-  appcast 'https://raw.githubusercontent.com/oz-sysb/homebrew-ozv/master/versions/versions/ozv-virtualbox.txt'
+  appcast 'https://raw.githubusercontent.com/oz-sysb/homebrew-ozv/master/versions/ozv-virtualbox.txt'
   name 'Oracle VirtualBox'
   homepage 'https://www.virtualbox.org/'
 
